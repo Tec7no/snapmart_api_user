@@ -17,8 +17,8 @@ RUN apt-get update && apt-get install -y \
 # Install any needed dependencies specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Make port 8000 available to the world outside this container
-EXPOSE 8000
+# Make port 8001 available to the world outside this container
+EXPOSE 8001
 
 # Define environment variable
 ENV NAME World
